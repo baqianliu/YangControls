@@ -1,13 +1,14 @@
-﻿<ResourceDictionary 
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:controls="clr-namespace:MaxwellControl.Controls"
-	>
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:themes="clr-namespace:YangControls.Themes"
+					xmlns:controls="clr-namespace:YangControls.Controls"
+					>
 
+	<!--
 	<ResourceDictionary.MergedDictionaries>
-		<themes:SharedResourceDictionary Source="pack://application:,,,/MaxwellControl;component/Themes/Styles/Base/BaseStyle.xaml"/>
-		<themes:SharedResourceDictionary Source="pack://application:,,,/MaxwellControl;component/Themes/Basic/Geometries.xaml"/>
+		<themes:SharedResourceDictionary Source="pack://application:,,,/YangControls;component/Themes/Basic/Geometries.xaml"/>
 	</ResourceDictionary.MergedDictionaries>
+	-->
 
 	<Style x:Key="ExpanderDownHeaderStyle" TargetType="{x:Type ToggleButton}">
 		<Setter Property="Background" Value="{DynamicResource ThirdlyLightGradientBrush}"/>
@@ -165,4 +166,5 @@
 			</Setter.Value>
 		</Setter>
 	</Style>
+
 </ResourceDictionary>
